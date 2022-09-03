@@ -36,3 +36,22 @@
 
 // const result2 = NumberText("3 boshli ajdarho")
 // console.log(result2);
+
+
+let butunSonlar = [1,2,3,4,3,2,1]
+let tekshir = 0
+let juftsizSon
+
+const checkNumber = () => {
+  for (let i = 0; i < butunSonlar.length; i++) {
+    tekshir=0
+        for (let a = 0; a < butunSonlar.length; a++) {
+          if (butunSonlar[i]==butunSonlar[a]){tekshir++}
+       } if (tekshir==1) {
+    juftsizSon = butunSonlar[i]}
+    }
+    return juftsizSon
+}
+
+const result3 = checkNumber()
+console.log(result3);
